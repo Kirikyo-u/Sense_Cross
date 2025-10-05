@@ -41,7 +41,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	banner: {
-		enable: true, // 是否启动Banner壁纸模式
+		enable: false, // 是否启动Banner壁纸模式
 
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
@@ -99,7 +99,7 @@ export const siteConfig: SiteConfig = {
 
 				speed: 100, // 打字速度（毫秒）
 				deleteSpeed: 50, // 删除速度（毫秒）
-				pauseTime: 2000, // 完全显示后的暂停时间（毫秒）
+				pauseTime: 1000, // 完全显示后的暂停时间（毫秒）
 			},
 		},
 
